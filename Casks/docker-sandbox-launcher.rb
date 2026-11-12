@@ -2,8 +2,8 @@
 # .github/workflows/release.yml が @@...@@ を埋めて
 # ss-koishi/homebrew-tap の Casks/ へ push する。手で編集するならこちら側を直すこと。
 cask "docker-sandbox-launcher" do
-  version "0.1.1"
-  sha256 "6e164bdd4f9fb124591b1784131db9993202127dec9bab3b139daf366247f479"
+  version "0.2.1"
+  sha256 "d9e4e3b9a7a7a151b0ad4cf798ac552c8f53165d561d7a1e710438c96a829c5f"
 
   url "https://github.com/ss-koishi/docker-sandbox-launcher/releases/download/v#{version}/Docker.Sandbox.Launcher_#{version}_universal.dmg"
   name "Docker Sandbox Launcher"
